@@ -1,0 +1,5 @@
+numpy
+pandas
+streamlit
+plotly
+typing>=3.7.4
