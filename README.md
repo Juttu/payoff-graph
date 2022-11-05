@@ -22,6 +22,11 @@ from payoffgraph_juttu import get_payoff
 ```python
 get_payoff(positions_list,x1,x2)
 ```
+# To run the file use this command
+```python
+streamlit run my_file.py
+```
+
 This is the only function you need to plot the graph
 
 # Parameters - positions_list, x1, x2
@@ -70,10 +75,31 @@ Eg: (Nifty : 1Lot = 50 quantity, BankNifty: 1Lot = 25 quantity )
 
 &emsp; For eg: If you consider Nifty you can use [x1,x2] = [spotprice-3000,spotprice+3000]
 
-![png](/Users/juttugajendraanurag/Desktop/payoffgraph_juttu/nifty.png)
+![png](https://github.com/Juttu/ss/blob/main/nifty.png)
 
 Here the graph starts from 14700 and ends at 20700 on the x-axis.
 
+# COMPLETE EXAMPLE
+
+```python
+position1=[15600.00,"CE","S",2210.2,100]
+position2=[15600,"PE","S",5,50]
+position3=[15200,"CE","B",2573,50]
+
+positions_list=[position1,position2,position3]
+
+x1= 14700
+x2=27000
+
+get_payoff(positions_list,x1,x2)
+```
+# Run using this command
+
+```python
+streamlit run my_file.py
+```
+
+![png](https://github.com/Juttu/ss/blob/main/nifty.png)
 
 
 

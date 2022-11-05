@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name='payoffgraph_juttu',
-    version='0.0.6',
+    version='0.0.8',
     description='Get the most beautiful Payoff Chart using a single simple function',
     author= 'Juttu G Anurag',
-    # url = 'https://github.com/Spidy20/PyMusic_Player',
+    url = 'https://github.com/Juttu/ss',
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
